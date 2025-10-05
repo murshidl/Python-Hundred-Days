@@ -1,0 +1,86 @@
+Scope in Python
+
+1. Local Scope
+
+A local scope exists inside a function.
+
+Any variable created inside a function belongs to that function and can only be accessed there.
+
+Once the function finishes executing, those local variables are destroyed.
+
+Example:
+
+def my_func():
+    x = 10   # local variable
+    print(x) # accessible here
+
+my_func()
+# print(x)  # ❌ Error: x is not defined (outside the function)
+
+
+2. Global Scope
+
+A global scope refers to variables that are created outside of all functions.
+
+These variables can be accessed from anywhere in the program (including inside functions, unless shadowed by a local variable with the same name).
+
+Example:
+
+y = 20  # global variable
+
+def my_func():
+    print(y)  # ✅ accessible inside function
+
+my_func()
+print(y)      # ✅ accessible outside too
+
+
+👉 In short:
+
+Local scope → variable exists only inside a function.
+
+Global scope → variable exists throughout the entire program.
+
+1. Local Scope
+
+A local scope exists inside a function.
+
+Any variable created inside a function belongs to that function and can only be accessed there.
+
+Once the function finishes executing, those local variables are destroyed.
+
+Example:
+
+def my_func():
+    x = 10   # local variable
+    print(x) # accessible here
+
+my_func()
+# print(x)  # ❌ Error: x is not defined (outside the function)
+
+
+2. Global Scope
+
+A global scope refers to variables that are created outside of all functions.
+
+These variables can be accessed from anywhere in the program (including inside functions, unless shadowed by a local variable with the same name).
+
+Example:
+
+y = 20  # global variable
+
+def my_func():
+    print(y)  # ✅ accessible inside function
+
+my_func()
+print(y)      # ✅ accessible outside too
+
+
+👉 In short:
+
+Local scope → variable exists only inside a function.
+
+Global scope → variable exists throughout the entire program.
+
+
+<>there is nothing called as block scope

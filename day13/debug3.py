@@ -1,0 +1,15 @@
+def is_leap(year):
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
+        
+is_leap(2002)
+
+# i here i fixed line 4 where the condition was 4000 instead of 400
