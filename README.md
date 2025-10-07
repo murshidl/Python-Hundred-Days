@@ -16,3 +16,32 @@ Each folder represents a single day’s project, from beginner-level basics to a
 
 ## 🧩 Repository Structure
 
+
+Each day includes:
+- `main.py` – main Python file for the day’s exercises/project  
+- `README.md` – short explanation or problem statement  
+- Any supporting files (`art.py`, `data.py`, `menu.py`, etc.)
+
+---
+
+## 🚀 Topics Covered
+
+- Variables, Data Types, and Operators  
+- Functions, Loops, and Conditional Statements  
+- Dictionaries and Lists  
+- Object-Oriented Programming  
+- File Handling and Error Management  
+- Working with APIs and JSON  
+- GUI Apps (Tkinter)  
+- Web Scraping and Automation  
+- Game Development  
+- Flask Web Development  
+- Data Analysis and Visualization  
+
+---
+
+## ⚙️ How to Run a Project
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/murshidl/Python-Hundred-Days.git
